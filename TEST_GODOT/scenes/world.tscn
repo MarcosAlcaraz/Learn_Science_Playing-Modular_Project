@@ -1,0 +1,73 @@
+[gd_scene load_steps=4 format=3 uid="uid://ds52fdj5dyu7j"]
+
+[ext_resource type="Texture2D" uid="uid://dueyg73v5oucy" path="res://Assets/grass.png" id="1_kyfei"]
+[ext_resource type="PackedScene" uid="uid://cs1mrlq1dwnam" path="res://scenes/tree.tscn" id="2_14eyi"]
+[ext_resource type="PackedScene" uid="uid://b8uirf660wevj" path="res://scenes/player.tscn" id="3_3tp8m"]
+
+[node name="world" type="Node2D"]
+
+[node name="grass" type="Sprite2D" parent="."]
+position = Vector2(-45, -89)
+texture = ExtResource("1_kyfei")
+
+[node name="tree" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(665, -205)
+
+[node name="tree2" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-1424, -1286)
+
+[node name="tree3" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(487, 1270)
+
+[node name="tree4" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-2029, 1216)
+
+[node name="tree5" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-414, 99)
+
+[node name="tree6" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(998, -1206)
+
+[node name="tree7" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-172, -1946)
+
+[node name="tree8" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(1658, 1593)
+
+[node name="tree9" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(1980, -2134)
+
+[node name="tree10" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-603, -1354)
+
+[node name="tree11" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-441, 1203)
+
+[node name="tree12" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(1752, 490)
+
+[node name="tree13" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(1980, -708)
+
+[node name="tree14" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-1841, -2094)
+
+[node name="tree15" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-1289, 1768)
+
+[node name="tree16" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-253, 1647)
+
+[node name="tree17" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-1235, 234)
+
+[node name="tree18" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-1814, -667)
+
+[node name="tree19" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(-51, -708)
+
+[node name="tree20" parent="." instance=ExtResource("2_14eyi")]
+position = Vector2(1254, 772)
+
+[node name="player" parent="." instance=ExtResource("3_3tp8m")]
