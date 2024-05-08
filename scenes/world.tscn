@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://ds52fdj5dyu7j"]
+[gd_scene load_steps=5 format=3 uid="uid://ds52fdj5dyu7j"]
 
 [ext_resource type="Texture2D" uid="uid://dueyg73v5oucy" path="res://Assets/grass.png" id="1_kyfei"]
 [ext_resource type="PackedScene" uid="uid://cs1mrlq1dwnam" path="res://scenes/tree.tscn" id="2_14eyi"]
 [ext_resource type="PackedScene" uid="uid://b8uirf660wevj" path="res://scenes/player.tscn" id="3_3tp8m"]
+[ext_resource type="PackedScene" uid="uid://ci20pmyu5g8c1" path="res://scenes/api_button.tscn" id="4_up2me"]
 
 [node name="world" type="Node2D"]
 
@@ -71,3 +72,9 @@ position = Vector2(-51, -708)
 position = Vector2(1254, 772)
 
 [node name="player" parent="." instance=ExtResource("3_3tp8m")]
+
+[node name="API_BUTTON" parent="." instance=ExtResource("4_up2me")]
+offset_left = -2290.0
+offset_top = -326.0
+offset_right = -1970.0
+offset_bottom = -75.0
